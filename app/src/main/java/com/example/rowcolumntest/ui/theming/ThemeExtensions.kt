@@ -65,6 +65,26 @@ fun themeElevationNone() = AppTheme.elevation.none
 @Composable
 fun themeStrokeThin() = AppTheme.stroke.thin
 
+@Composable
+fun themeStrokeMedium() = AppTheme.stroke.medium
+
+@Composable
+fun themeStrokeThick() = AppTheme.stroke.heavy
+
+@Composable
+fun themeTypographyBody() = AppTheme.typography.body1
+
+@Composable
+fun themeTypographyCaption() = AppTheme.typography.caption
+
+@Composable
+fun themeTypographyH1() = AppTheme.typography.h1
+
+@Composable
+fun themeTypographyH2() = AppTheme.typography.h2
+
+
+
 @Preview
 @Composable
 fun PreviewCard() {
@@ -90,7 +110,7 @@ fun PreviewCard2() {
             containerColor = themeColorSecondary(), contentColor = themeColorOnPrimary()
         )
     ) {
-        Text(text = "Hello World", modifier = Modifier.padding(themeSpacingXs()))
+        Text(text = "Hello World", modifier = Modifier.padding(themeSpacingXs()), style = themeTypographyBody())
     }
 }
 
