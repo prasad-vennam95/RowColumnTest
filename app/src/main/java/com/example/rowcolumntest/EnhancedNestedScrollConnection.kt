@@ -146,7 +146,7 @@ fun NestedScrollApp(
                 modifier = Modifier.padding(16.dp)
             ) {
                 Text(
-                    text = "Fixed Nested Scroll Demo",
+                    text = "Scroll Demo",
                     fontSize = 20.sp,
                     fontWeight = FontWeight.Bold,
                     color = Color.White
