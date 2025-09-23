@@ -12,7 +12,13 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 
 @Composable
+fun themeSpacingNone(): Dp = AppTheme.spacing.none
+
+@Composable
 fun themeSpacingXs(): Dp = AppTheme.spacing.xs
+
+@Composable
+fun themeSpacingSm() = AppTheme.spacing.sm
 
 @Composable
 fun themeSpacingMd(): Dp = AppTheme.spacing.md

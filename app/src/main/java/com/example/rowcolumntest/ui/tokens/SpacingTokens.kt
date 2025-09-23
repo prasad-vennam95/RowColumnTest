@@ -1,13 +1,66 @@
 package com.example.rowcolumntest.ui.tokens
 
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
-object SpacingTokens {
-    val none = 0.dp
-    val xs = 4.dp
-    val sm = 8.dp
-    val md = 16.dp
-    val lg = 24.dp
-    val xl = 32.dp
+data class SpacingTokens(
+    val none: Dp = 0.dp,
+    val xs: Dp = 4.dp,
+    val sm: Dp = 8.dp,
+    val md: Dp = 16.dp,
+    val lg: Dp = 24.dp,
+    val xl: Dp = 32.dp,
+    val spacing1: Dp = 1.dp,
+    val spacing2: Dp = 2.dp,
+    val spacing4: Dp = 4.dp,
+    val spacing6: Dp = 6.dp,
+    val spacing8: Dp = 8.dp,
+    val spacing10: Dp = 10.dp,
+    val spacing12: Dp = 12.dp,
+    val spacing14: Dp = 14.dp,
+    val spacing18: Dp = 18.dp,
+    val spacing20: Dp = 20.dp,
+    val spacing22: Dp = 22.dp,
+    val spacing26: Dp = 26.dp,
+    val spacing28: Dp = 28.dp,
+    val spacing30: Dp = 30.dp,
+    val spacing34: Dp = 34.dp,
+    val spacing36: Dp = 36.dp,
+    val spacing38: Dp = 38.dp,
+    val spacing40: Dp = 40.dp,
+    val spacing42: Dp = 42.dp,
+    val spacing44: Dp = 44.dp,
+    val spacing46: Dp = 46.dp,
+    val spacing48: Dp = 48.dp,
+    val spacing50: Dp = 50.dp,
+    val spacing52: Dp = 52.dp,
+    val spacing54: Dp = 54.dp,
+    val spacing56: Dp = 56.dp,
+    val spacing58: Dp = 58.dp,
+    val spacing60: Dp = 60.dp,
+    val spacing62: Dp = 62.dp,
+    val spacing64: Dp = 64.dp,
+    val spacing66: Dp = 66.dp,
+    val spacing68: Dp = 68.dp,
+    val spacing70: Dp = 70.dp,
+    val spacing72: Dp = 72.dp,
+    val spacing74: Dp = 74.dp,
+    val spacing76: Dp = 76.dp,
+    val spacing78: Dp = 78.dp,
+    val spacing80: Dp = 80.dp,
+    val spacing82: Dp = 82.dp,
+    val spacing84: Dp = 84.dp,
+    val spacing86: Dp = 86.dp,
+    val spacing88: Dp = 88.dp,
+    val spacing90: Dp = 90.dp,
+    val spacing92: Dp = 92.dp,
+    val spacing94: Dp = 94.dp,
+    val spacing96: Dp = 96.dp,
+    val spacing98: Dp = 98.dp,
+    val spacing100: Dp = 100.dp,
+) {
+
+    fun horizontalPadding(): Dp = md
+    fun verticalPadding(): Dp = md
 }
 
